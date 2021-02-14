@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="40dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/shadow">
+
+    <TextView
+        android:id="@+id/wordList"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="load"
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:textColor="#474545"
+        android:textSize="18sp" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
